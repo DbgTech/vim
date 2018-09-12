@@ -20,8 +20,15 @@ syntax on
 
 " Highlight search result
 set hlsearch
+" show match when input search content
+set incsearch
 
 " using file type syntax and start related plugin
 filetype plugin indent on
 
-
+" set shift width, ex. Tab
+set shiftwidth=4
+set tabstop=4
+set softtabstop=4
+" no expand tab to four space
+set noexpandtab
