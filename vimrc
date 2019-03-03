@@ -20,6 +20,8 @@ syntax on
 
 " Highlight search result
 set hlsearch
+" show part match points
+set incsearch
 
 " using file type syntax and start related plugin
 filetype plugin indent on
